@@ -32,3 +32,7 @@ Route::get('/db', function () {
 Route::get('/dd', function () {
     return dd("como asi");
 });
+
+Route::get('/producto', function () {
+    return view('almacen.producto', ['nombre' => 'wao']);
+});
